@@ -17,6 +17,9 @@
 class FalconBrowser < Formula
   desc "Pure-Rust headless browser engine with HTTP API and MCP server"
   homepage "https://github.com/falcon-browser/falcon-browser"
+  url "https://github.com/falcon-browser/falcon-browser/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "27f59fbb26cdf4855cb180938a8879bb0bdd116139f0bdb30a33ef610f451c2d"
+  version "0.1.0"
   license "MIT"
   head "https://github.com/falcon-browser/falcon-browser.git", branch: "main"
 
